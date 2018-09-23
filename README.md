@@ -1,1 +1,1 @@
-# Django-Gunicorn-Docker-Kubernetes
+# Django-Gunicorn-Nginx-Docker-Kubernetes
