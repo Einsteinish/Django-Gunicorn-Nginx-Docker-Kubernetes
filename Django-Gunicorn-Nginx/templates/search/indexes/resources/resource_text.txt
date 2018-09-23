@@ -1,0 +1,5 @@
+{{ object.title }}
+{{ object.created_by }}
+{{ object.help_text }}
+{{ object.submited_at }}
+{{ object.body }}
