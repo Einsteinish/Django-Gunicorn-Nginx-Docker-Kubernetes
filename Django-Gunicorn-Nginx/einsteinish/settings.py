@@ -23,13 +23,13 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    'markdown_deux',
+    #'markdown_deux',
     'haystack',
     'django_extensions',
     'guardian',
     'widget_tweaks',
     'braces',
-    'djangoratings',
+    #'djangoratings',
     'disqus',
 )
 
@@ -191,7 +191,6 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
-
 # mysql
 DATABASES = {
     'default': {
@@ -203,19 +202,16 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
-
 # Moved to local_settings.py
 #SITE_ID = 1   # example.com       
 #SITE_ID = 2   # einsteinish.com       
 SITE_ID = 3   # localhost:8000
-
 # Moved to local_settings.py
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'kihyuck.hong@gmail.com'
 EMAIL_HOST_PASSWORD = 'password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-
 # Moved to local_settings.py
 SECRET_KEY = 'einsteinishcom'
 ################################
